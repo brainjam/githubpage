@@ -24,6 +24,25 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+
+Mathjax just for fun
+
+## Font sizes
+$\text{Pythagoras}\leadsto$
+$\large{\text{Pythagoras}\leadsto}$
+$\Large{\text{Pythagoras}\leadsto}$
+$\LARGE{\text{Pythagoras}\leadsto}$
+$\huge{\text{Pythagoras}\leadsto}$
+$\Huge{\text{Pythagoras}\leadsto\leadsto}$
+<br/>
+$\tiny{\mathtt{\leadsto typewriter}}$
+$\scriptsize{\mathtt{\leadsto typewriter}}$
+$\footnotesize{\mathtt{\leadsto typewriter:\Xi}}$
+$\small{\mathtt{\leadsto typewriter:\varPhi}}$
+$\mathtt{\leadsto typewriter:\Gamma}$
+$\large{\mathtt{\leadsto typewriter:\Lambda:\Xi}}$
+
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
