@@ -6,10 +6,48 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
+## Mathjax just for fun
+
+$\text{Pythagoras}\leadsto$
+
+$\large{\text{Pythagoras}\leadsto}$
+
+$\Large{\text{Pythagoras}\leadsto}$
+
+$\LARGE{\text{Pythagoras}\leadsto}$
+
+$\huge{\text{Pythagoras}\leadsto}$
+
+$\Huge{\text{Pythagoras}\leadsto\leadsto}$
+
+$\tiny{\mathtt{\leadsto typewriter}}$
+
+$\scriptsize{\mathtt{\leadsto typewriter}}$
+
+$\small{\mathtt{\leadsto typewriter:\varPhi}}$
+
+$\mathtt{\leadsto typewriter:\Gamma}$
+
+$\large{\mathtt{\leadsto typewriter:\Lambda:\Xi}}$
+
+$\widetilde{ABC}$
+
+$$
+\require{enclose}
+\begin{array}{ccccccccc}   
+\Large{\enclose{circle}{A}} & \xrightarrow{0.1} & \Large{\enclose{circle}{B}} & \xrightarrow{0.2} & \Large{\enclose{circle}{C}} & \xleftarrow{0.3} & \Large{\enclose{circle}{D}} & \xleftarrow{0.4} & \Large{\enclose{circle}{E}}\\\
+\scriptsize{0.5}\large{\downarrow} & \scriptsize{0.6}\large{\searrow} & \scriptsize{0.7}\large{\downarrow} & \scriptsize{0.8}\large{\nearrow} & \scriptsize{0.9}\large{\downarrow} & \scriptsize{0.1}\large{\swarrow} & \scriptsize{0.2}\large{\downarrow} & \scriptsize{0.3}\large{\nwarrow} & \scriptsize{0.4}\large{\downarrow}\\\  
+\Large{\enclose{circle}{F}} & \xrightarrow[0.5]{} & \Large{\enclose{circle}{G}} & \xrightarrow[0.6]{} & \Large{\enclose{circle}{H}} & \xleftarrow[0.7]{} & \Large{\enclose{circle}{I}} & \xleftarrow[0.8]{} & \Large{\enclose{circle}{J}}\\
+\circlearrowright\tfrac12\\ 
+\end{array} 
+$$
+
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
+
 
 # Header 1
 ## Header 2
@@ -24,23 +62,6 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-
-Mathjax just for fun
-
-## Font sizes
-$\text{Pythagoras}\leadsto$
-$\large{\text{Pythagoras}\leadsto}$
-$\Large{\text{Pythagoras}\leadsto}$
-$\LARGE{\text{Pythagoras}\leadsto}$
-$\huge{\text{Pythagoras}\leadsto}$
-$\Huge{\text{Pythagoras}\leadsto\leadsto}$
-<br/>
-$\tiny{\mathtt{\leadsto typewriter}}$
-$\scriptsize{\mathtt{\leadsto typewriter}}$
-$\footnotesize{\mathtt{\leadsto typewriter:\Xi}}$
-$\small{\mathtt{\leadsto typewriter:\varPhi}}$
-$\mathtt{\leadsto typewriter:\Gamma}$
-$\large{\mathtt{\leadsto typewriter:\Lambda:\Xi}}$
 
 
 ```
